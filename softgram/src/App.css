@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+}
+
+
+.App{
+  background-color: #fafafa;
+}
+
+.app__posts{
+  padding: 20px;
+}
+
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerButton{
+display: flex;
+align-content: center;
+}
+
+.app__uploader{
+
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+.app__signup{
+display: flex;
+flex-direction: column;
+}
+
+.app__signin{
+  display: flex;
+  flex-direction: column;
+}
